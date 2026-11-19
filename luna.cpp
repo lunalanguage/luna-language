@@ -13,7 +13,7 @@
 #pragma comment(lib, "user32.lib") 
 #pragma comment(lib, "gdi32.lib")  
 
-// --- ГЛОБАЛЬНЫЕ ПЕРЕМЕННЫЕ ДЛЯ GUI ---
+
 HWND g_mainWindow = NULL;
 
 LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam) {
